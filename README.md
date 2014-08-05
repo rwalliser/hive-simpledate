@@ -12,7 +12,7 @@ mvn test
 3. Jar Builden
 mvn install --> hive-simpledate-0.12.0-SNAPSHOT.jar
 
-<h2>Hive<h2>
+<h2>Hive</h2>
 1. Hive starten und das Jar mit der Funktion laden
 add jar {path}/hive-simpledate-0.12.0-SNAPSHOT.jar;
 
