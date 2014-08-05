@@ -20,9 +20,6 @@ add jar {path}/hive-simpledate-0.12.0-SNAPSHOT.jar;
 create temporary function simpledate as 'ch.circle6.hive.udf.SimpleDateUDF';
 
 3. Die Funktion simpledate verwenden
-a)  
-select simpledate(datum, 'EEE MMM dd HH:mm:ss yyyy'), debug_level, debug_message from migzs374_errorlog limit 10;
-
-b)
-select simpledate(datum, 'EEE MMM dd HH:mm:ss yyyy', 'HH:mm:ss yyyy-MM-dd'), debug_level, debug_message from migzs374_errorlog limit 10;
+  -select simpledate(datum, 'EEE MMM dd HH:mm:ss yyyy'), debug_level, debug_message from migzs374_errorlog limit 10;
+  -select simpledate(datum, 'EEE MMM dd HH:mm:ss yyyy', 'HH:mm:ss yyyy-MM-dd'), debug_level, debug_message from migzs374_errorlog limit 10;
 
