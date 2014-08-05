@@ -3,20 +3,20 @@
 SimpeDate UDF für Apache Hive
 
 <h2>Maven</h2>
-1. Maven vorbereiten
+1. Maven vorbereiten<br>
 mvn clean
 
-2. Unittest ausführen
+2. Unittest ausführen<br>
 mvn test
 
-3. Jar Builden
+3. Jar Builden<br>
 mvn install --> hive-simpledate-0.12.0-SNAPSHOT.jar
 
 <h2>Hive</h2>
-1. Hive starten und das Jar mit der Funktion laden
+1. Hive starten und das Jar mit der Funktion laden<br>
 add jar {path}/hive-simpledate-0.12.0-SNAPSHOT.jar;
 
-2. Die Funktion im Hive bekannt machen
+2. Die Funktion im Hive bekannt machen<br>
 create temporary function simpledate as 'ch.circle6.hive.udf.SimpleDateUDF';
 
 3. Die Funktion simpledate verwenden<br>
