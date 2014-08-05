@@ -1,4 +1,4 @@
-package ch.circle6.hive.udf.simpledate;
+package ch.circle6.hive.udf.complex;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

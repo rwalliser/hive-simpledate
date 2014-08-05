@@ -1,4 +1,4 @@
-package ch.circle6.hive.udf.simpledate;
+package ch.circle6.hive.udf.complex;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -18,6 +18,8 @@ import org.apache.hadoop.hive.serde2.objectinspector.primitive.JavaStringObjectI
 import org.apache.hadoop.hive.serde2.objectinspector.primitive.PrimitiveObjectInspectorFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import ch.circle6.hive.udf.complex.SimpleDateUDF;
 
 /**
  * Unit test for simple App.
