@@ -15,10 +15,10 @@ mvn install --> hive-simpledate-0.12.0.jar
 <h2>Hive</h2>
 1. Hive Tabelle erstellen die ein Feld mit einem Datum als String zurückliefert.<br>
 Z.b.
-datum                   |debug_level |debug_message
-Tue Jul 29 10:00:47 2014|info        |Init: Seeding PRNG with 136 bytes of entropy
-Tue Jul 29 10:00:47 2014|info        |Init: Generating temporary RSA private keys (512/1024 bits)
-Tue Jul 29 10:00:47 2014|info        |Init: Generating temporary DH parameters (512/1024 bits)
+datum                   |debug_level |debug_message<br>
+Tue Jul 29 10:00:47 2014|info        |Init: Seeding PRNG with 136 bytes of entropy<br>
+Tue Jul 29 10:00:47 2014|info        |Init: Generating temporary RSA private keys (512/1024 bits)<br>
+Tue Jul 29 10:00:47 2014|info        |Init: Generating temporary DH parameters (512/1024 bits)<br>
 
 2. Hive starten und das Jar mit der Funktion laden<br>
 add jar {path}/hive-simpledate-0.12.0-SNAPSHOT.jar;
